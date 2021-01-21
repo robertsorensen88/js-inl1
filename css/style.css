@@ -1,25 +1,47 @@
-header{
-    background: content-box radial-gradient(rgb(112, 153, 35), olive);
+
+#nr{
+    width: 40px;
 }
-header h1, header label{
-    padding-left: 50px;
+
+body{
+     background: content-box radial-gradient(rgb(112, 153, 35), olive);
+}
+header{
+    background-color: whitesmoke;
+    padding-bottom: 20px;
+    border-radius: 45% 34pc / 43px 34px;
+    border: black 4px solid;
+    text-align: center;
+}
+header h1 {
+    font-style: italic;
+    font-size: 50px;
+}
+header h1 span{
+    color: olive;
+}
+.nav{
+     overflow: scroll;
+     height: 200px;
 }
 .blognav {
     float: left;
     position: sticky;
     flex-direction: row;
     top: 100px;
-    overflow: scroll;
+    overflow: hidden;
     width: 10%;
     min-width: 100px;
     height: 300px;
+    padding-top: 10px;
     padding-left: 10px;
-    background: content-box radial-gradient(rgb(112, 153, 35), olive);
+   background-color: whitesmoke;
+   border-radius: 45% 34pc / 43px 34px;
+   border: 2px solid black;
 }
-.navhead{
-    position: sticky;
-    top: 75px;
-
+.tagline{
+    border-bottom: black 1px solid;
+    border-top: solid 1px black;
 }
 a {
     text-decoration: none;
@@ -28,19 +50,20 @@ a {
     margin: 3px;
 }
 a:hover {
-    background-color: rgba(255,255,255,0.4);
+    background-color: rgba(112, 153, 35,0.8);
 }
 section{
     display: flex;
     flex-wrap: wrap; 
-    padding: 20px;  
-
+    padding: 10px;  
+   
 }
 article{
     margin: 20px;
     padding: 5px;
     flex: 40%;
     max-width: 300px;
+    background-color: whitesmoke;
     border: 2px outset black;
     border-radius: 45% 34pc / 43px 34px;
 }

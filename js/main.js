@@ -1,13 +1,15 @@
 window.onload = function() {
+    
     document.getElementById("nr").oninput = function (){
         Remove();
-
+        
         var posts = parseInt(this.value);
-
+       
+        
         for(var i = 0; i < posts; i++){
 
             var parent = document.querySelector("section");
-            var navi = document.querySelector("nav");
+            var navi = document.querySelector("div");
 
             var arti = document.createElement("article");
             
@@ -45,6 +47,7 @@ function Remove(){
        
 }
 }
+
 
 function makeEditable(elem){
     elem.onclick = function(){
