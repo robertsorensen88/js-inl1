@@ -1,0 +1,46 @@
+header{
+    background: content-box radial-gradient(rgb(112, 153, 35), olive);
+}
+header h1, header label{
+    padding-left: 50px;
+}
+.blognav {
+    float: left;
+    position: sticky;
+    flex-direction: row;
+    top: 100px;
+    overflow: scroll;
+    width: 10%;
+    min-width: 100px;
+    height: 300px;
+    padding-left: 10px;
+    background: content-box radial-gradient(rgb(112, 153, 35), olive);
+}
+.navhead{
+    position: sticky;
+    top: 75px;
+
+}
+a {
+    text-decoration: none;
+    color: black;
+    display: block;
+    margin: 3px;
+}
+a:hover {
+    background-color: rgba(255,255,255,0.4);
+}
+section{
+    display: flex;
+    flex-wrap: wrap; 
+    padding: 20px;  
+
+}
+article{
+    margin: 20px;
+    padding: 5px;
+    flex: 40%;
+    max-width: 300px;
+    border: 2px outset black;
+    border-radius: 45% 34pc / 43px 34px;
+}
