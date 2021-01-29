@@ -15,12 +15,14 @@ newblog.onclick = function newpost() {
     var txt = document.createElement("p");
     var link = document.createElement("a");
     
-    place.placeholder= divvs;
+    place.placeholder = divvs;
+    place.value = divvs;
+    arti.id = divvs;
     heads.innerHTML = "Post # " + divvs;
     txt.innerHTML =
       "Click me";
     link.innerHTML = "Post # " + divvs;
-
+    link.href = "#" + divvs;
     makeEditable(heads);
     makeEditable(txt);
 
