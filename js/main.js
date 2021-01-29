@@ -5,6 +5,7 @@ window.onload = function () {
     var posts = parseInt(this.value);
 
     for (var i = 0; i < posts; i++) {
+      var place = document.querySelector("input");
       var parent = document.querySelector("section");
       var navi = document.querySelector("div");
 
@@ -14,6 +15,7 @@ window.onload = function () {
       var txt = document.createElement("p");
       var link = document.createElement("a");
 
+      place.placeholder = posts;
       arti.id = i + 1;
       heads.innerHTML = "Post # " + (i + 1);
       txt.innerHTML =
@@ -42,6 +44,7 @@ function Remove() {
     links[i].remove();
   }
 }
+
 function makeEditable(elem) {
   elem.onclick = function () {
     elem.contentEditable = true;
