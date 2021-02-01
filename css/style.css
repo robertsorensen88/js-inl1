@@ -19,7 +19,14 @@ header h1 {
   letter-spacing: -5px;
   font-size: 50px;
 }
-
+header button {
+  margin: 10px;
+  background-color: white;
+  border-radius: 5px;
+}
+header button:hover{
+  cursor: pointer;
+}
 .nav {
   overflow: scroll;
   height: 200px;
