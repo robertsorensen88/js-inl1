@@ -24,7 +24,7 @@ header button {
   background-color: white;
   border-radius: 5px;
 }
-header button:hover{
+header button:hover {
   cursor: pointer;
 }
 .nav {

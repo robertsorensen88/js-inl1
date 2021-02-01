@@ -1,4 +1,4 @@
-const newblog = document.querySelector(".new") // när vi trycker på new post så sker detta event.
+const newblog = document.querySelector(".new"); // när vi trycker på new post så sker detta event.
 newblog.onclick = function newpost() {
   // vi tar värdet från input och höjer det med 1.
   //sedan gör vi samma som i main.js men vi byter även ut input placeholder till det nya värdet.
@@ -32,4 +32,4 @@ newblog.onclick = function newpost() {
   arti.appendChild(txt);
   navi.appendChild(link);
   parent.appendChild(arti);
-}
+};
